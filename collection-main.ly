@@ -148,8 +148,6 @@ postTitleText = ""
   \include "collection-tune-pages.ly"
 }
 
-%{
-
 % BASS CLEF VERSION
 clefName = "bass"
 fromPitch = c
@@ -165,6 +163,7 @@ postTitleText = ""
   \include "collection-tune-pages.ly"
 }
 
+%{
 
 % ALTO CLEF VERSION
 clefName = "alto"
