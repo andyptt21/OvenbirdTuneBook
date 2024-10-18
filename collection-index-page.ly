@@ -26,17 +26,22 @@
 
 \markup \override #'(baseline-skip . 2.2) \tiny \columns {
   \column {
-    "Black Mountain Rag [1]"
-    "Cattle in the Cane [1]"
-    "The Corner Post [1]"
-    "Cripple Creek [1]"
-    "Ducks on the Mill Pond [1]"
-    "Dull Chisel [1]"
-    "Jimmy Johnson [1]"
-    "Squirrel Hunters [1]"
-    "Swanee River [1]"
-    "The Rocky Road to Dublin [1]"
-    "The Woodcock Waltz [1]"
+    "Big Rock Candy Mountain"
+    "The Blackest Crow"
+    "Black Mountain Rag "
+    "Cattle in the Cane "
+    "The Corner Post "
+    "Cripple Creek "
+    "Ducks on the Mill Pond "
+    "Dull Chisel "
+    "Farewell to Walley Range"
+    "Footprints in the Snow"
+    "Jack A Roe "
+    "Jimmy Johnson "
+    "Squirrel Hunters "
+    "Swanee River "
+    "The Rocky Road to Dublin "
+    "The Woodcock Waltz "
   }
   \column {
   }

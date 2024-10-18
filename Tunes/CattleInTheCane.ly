@@ -7,7 +7,7 @@ CITCChords = \chordmode{a1 s g s
 		       }
 
 CITC = \relative{
-  \key a \major
+  \key d \major
   \repeat volta 2{
     %% A section
     \appoggiatura c''16 cis8 e4 fis8 e d cis d

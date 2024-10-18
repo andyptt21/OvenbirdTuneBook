@@ -38,6 +38,7 @@ WW = \relative{
     g \appoggiatura d16 ees4 d
     c2.^"Fine"
   }
+  \break
   \repeat volta 2 {
     gis8 a b a gis4
     gis8 b d gis, b d

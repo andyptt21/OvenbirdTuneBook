@@ -111,13 +111,17 @@ makeScore =
 % These contain the variables that contain the melodies and chords for each tune.
 % Including the files here makes these variables accessible for output below.
 
-% 1
+\include "Tunes/BlackestCrow.ly"
+\include "Tunes/BigRockCandyMountain.ly"
 \include "Tunes/BlackMountainRag.ly"
 \include "Tunes/CattleInTheCane.ly"
 \include "Tunes/CornerPost.ly"
 \include "Tunes/CrippleCreek.ly"
 \include "Tunes/DucksOntheMillpond.ly"
 \include "Tunes/DullChisel.ly"
+\include "Tunes/FarewellToWalleyRange.ly"
+\include "Tunes/FootprintsInTheSnow.ly"
+\include "Tunes/JackARoe.ly"
 \include "Tunes/JimmyJohnson.ly"
 \include "Tunes/SquirrelHunters.ly"
 \include "Tunes/SwaneeRiver.ly"
@@ -147,6 +151,8 @@ postTitleText = ""
   \pageBreak
   \include "collection-tune-pages.ly"
 }
+
+
 
 % BASS CLEF VERSION
 clefName = "bass"

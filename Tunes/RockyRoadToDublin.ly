@@ -9,7 +9,7 @@ RRTDChords = \chordmode{
 }
 
 RRTD = \relative{
-  \key a \major
+  \key d \major
   \repeat volta 2{
     %% A section
     e'''4 e cis a

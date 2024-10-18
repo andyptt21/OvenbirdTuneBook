@@ -1,17 +1,20 @@
 \version "2.18.0"
 
-CPChords = \chordmode{bes1 s s g:m
-			 f s2 d:m s1 g:m s
-			 g:m s s f
-			 s d:m s g:m s
-			 }
+CPChords = \chordmode{
+  s2
+  bes1 s s g:m
+  f s2 d:m s1 g:m s
+  g:m s s f
+  s d:m s g:m s
+}
 
 CP = \relative{
   \key g \minor
   %% Corner Post
+  \partial 2 g'8 a bes c 
   \repeat volta 2{
     %% A section
-    d''2 d8 f4 d8~
+    d2 d8 f4 d8~
     d c bes c d4. c8
     d f d c bes c d f
     \break
