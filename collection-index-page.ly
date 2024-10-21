@@ -17,34 +17,57 @@
                            args)))))
 
 \header {
-  tagline = ""
+  tagline = "Tunes with optional weblinks"
 }
 
 % #(set-default-paper-size "letter")
 
 % change baseline-skip value to alter the distance between each line
 
-\markup \override #'(baseline-skip . 2.2) \tiny \columns {
+\markup \override #'(baseline-skip . 4.4) \tiny
+\columns {
   \column {
-    "Big Rock Candy Mountain"
-    "The Blackest Crow"
-    "Black Mountain Rag "
-    "Cattle in the Cane "
-    "The Corner Post "
-    "Cripple Creek "
-    "Ducks on the Mill Pond "
-    "Dull Chisel "
-    "Farewell to Walley Range"
-    "Footprints in the Snow"
-    "Jack A Roe "
-    "Jimmy Johnson "
-    "Squirrel Hunters "
-    "Swanee River "
-    "The Rocky Road to Dublin "
-    "The Woodcock Waltz "
+    \fontsize #6 "Tune index with optional weblinks"
+    \bold "[1] Big Rock Candy Mountain"
+    \bold "[1] The Blackest Crow"
+    \italic "https://www.youtube.com/watch?v=4cYdD8Trv9A"
+    \bold "[2] Black Mountain Rag "
+    \italic "https://www.youtube.com/watch?v=C81Vo3HxJts"
+    \bold "[2] Cattle in the Cane "
+    \italic "https://www.youtube.com/watch?v=-6VeyJxzXyM"
+    \bold "[3] Cherokee Trail "
+    \italic "https://www.youtube.com/watch?v=8F1UZQcIles"
+    \bold "[3] Clinch Mountain Backstep "
+    \italic "https://www.youtube.com/watch?v=FlGgoXTGP1Q"
+    \bold "[4] The Corner Post "
+    \italic "https://www.youtube.com/watch?v=MSOwdKrWhxI"
+    \bold "[4] Cripple Creek "
+    \italic "https://www.youtube.com/watch?v=aNhsa8nR3so"
+    \bold "[5] Ducks on the Mill Pond "
+    \italic "https://www.youtube.com/watch?v=2lksDQbPMqc"
+    \bold "[5] Dull Chisel "
+    \bold "[5] The Erie Canal"
+    \bold "[6] Farewell to Walley Range "
+    \italic "https://www.youtube.com/watch?v=04wHatzmVsQ"
+    \bold "[6] Footprints in the Snow "
+    \italic "https://www.youtube.com/watch?v=2aDZGenlXfU"
+    \bold "[6] Jack A Roe "
+    \bold "[7] Jimmy Johnson "
+    \italic "https://www.youtube.com/watch?v=i3NEdCcy4NA"
+    \bold "[7] Little Pine Siskin"
+    \italic "https://www.youtube.com/watch?v=6JMHYfFfnfU"
   }
   \column {
-  }
-  \column {
+    " "
+    \bold "[8] Sally Goodin "
+    \italic "https://www.youtube.com/watch?v=1WzkUAm-ciQ"
+    \bold "[8] Sally in the Garden "
+    \italic "https://www.youtube.com/watch?v=WWIfFIEeZjw"
+    \bold "[9] Squirrel Hunters "
+    \italic "https://www.youtube.com/watch?v=ojrbbYPC4lY"
+    \bold "[9] Swanee River "
+    \bold "[10] The Rocky Road to Dublin "
+    \italic "https://www.youtube.com/watch?v=M0_KC2prUqo"
+    \bold "[10] The Woodcock Waltz "
   }
 }

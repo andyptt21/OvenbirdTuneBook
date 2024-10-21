@@ -31,10 +31,27 @@
   \CITC
   "Cattle in the Cane"
   ""
+
 }
 
 \bookpart{
   \header { manual-page-number = "3" }
+  \makeScore
+  \CTChords
+  \CT
+  "Cherokee Trail"
+  "John Hermann"
+
+  \makeScore
+  \CMBChords
+  \CMB
+  "Clinch Mountain Backstep"
+  "Ralph Stanley"
+}
+
+\bookpart{
+  \header { manual-page-number = "4" }
+
   \makeScore
   \CPChords
   \CP
@@ -46,10 +63,11 @@
   \CC
   "Cripple Creek"
   ""
+
 }
 
 \bookpart{
-  \header { manual-page-number = "4" }
+  \header { manual-page-number = "5" } 
   \makeScore
   \DOTMPChords
   \DOTMP
@@ -61,18 +79,23 @@
   \DC
   "Dull Chisel"
   ""
+  
+  \makeScore
+  \ECChords
+  \EC
+  "The Erie Canal"
+  ""
+  
+}
+
+\bookpart{
+  \header { manual-page-number = "6" }
 
   \makeScore
   \FWRChords
   \FWR
   "Farewell to Walley Range"
   ""
-  
-}
-
-\bookpart{
-  \header { manual-page-number = "5" }
-
   \makeScore
   \FITSChords
   \FITS
@@ -84,6 +107,10 @@
   \JAR
   "Jack A Roe"
   ""
+}
+
+\bookpart{
+  \header { manual-page-number = "7" }
   
   \makeScore
   \JJChords
@@ -91,10 +118,31 @@
   "Jimmy Johnson"
   ""
 
+  \makeScore
+  \LPSChords
+  \LPS
+  "Little Pine Siskin"
+  ""
+
 }
 
 \bookpart{
-  \header { manual-page-number = "6" }
+  \header { manual-page-number = "8" }
+  \makeScore
+  \SGChords
+  \SG
+  "Sally Goodin"
+  ""
+
+  \makeScore
+  \SITGChords
+  \SITG
+  "Sally in the Garden"
+  ""
+}
+
+\bookpart{
+  \header { manual-page-number = "9" }
   \makeScore
   \SHChords
   \SH
@@ -108,7 +156,7 @@
 }
 
 \bookpart{
-  \header { manual-page-number = "7" }
+  \header { manual-page-number = "10" }
   \makeScore
   \RRTDChords
   \RRTD

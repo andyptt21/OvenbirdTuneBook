@@ -5,7 +5,7 @@ CPChords = \chordmode{
   bes1 s s g:m
   f s2 d:m s1 g:m s
   g:m s s f
-  s d:m s g:m s
+  s d:m s g:m g:m
 }
 
 CP = \relative{

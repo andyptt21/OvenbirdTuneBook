@@ -13,24 +13,24 @@ BC = \relative{
   \time 3/4
   \partial 4 b'4
   \repeat volta 2 {
-    a2 g4 e2 d4
-    g2 a4 b2 d4
-    b2 a4 g2 d4
+    a4. b8  a g \tuplet 3/2 {e fis e} d4 e8 fis
+    g4. g8 \tuplet 3/2 {bes a g} \glissando b2 d4 
+    b4. b8  a4 \appoggiatura bes16 a4 g d
     
   }
   \alternative{
-    {e2.~ e2 b'4}
+    {e4. d8 e fis \tuplet 3/2 {e fis e} d4 b'}
     {e,2.~ e2 d4}
   }
   \break
   g2 g4 g a b
   d2 d4 b2 d4
-  e2 fis4 e2 d4
-  b2.~ b2 b4
+  e2 fis4 d2 e4
+  b2~ b8 a bes a g d b' g
   \break
-  a2 g4 e2 d4
-  g2 a4 b2 d4
-  b2 a4 g2 d4
+  a4. b8  a g \tuplet 3/2 {e fis e} d4 e8 fis
+  g4. g8 \tuplet 3/2 {bes a g} \glissando b2 d4 
+  b4. b8  a4 \appoggiatura bes16 a4 g d
   e2.~ e2 b'4
 }
 

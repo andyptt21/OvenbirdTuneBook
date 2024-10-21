@@ -4,6 +4,7 @@ JJChords = \chordmode{
   a4
   s1 s s e2 a2 e2 a2
   a1 s s e2 a2 e2 a2
+  s1 s s e2 a2 e2 a2
   a1 d2 a2 s1 e1
   a1 d2 a2 s1 e2 a2
 }
@@ -31,7 +32,19 @@ JJ = \relative{
   }
   \alternative {
     {e8 cis b4 a \tuplet 3/2 {e8 fis gis}}
-    {e'8 cis b4 a4 a'~}
+    {e'8 cis b4 a e'}
+  }
+  \break
+
+  \repeat volta 2{
+    e8 fis e d cis4 cis8 b
+    a cis b a  \glissando cis4 e~
+    e8 fis8 e8 d cis b cis8 d
+    
+  }
+    \alternative {
+    {e8 cis b4 a e'}
+    {e8 cis b4 a4 a'~}
   }
   \break
   
@@ -43,7 +56,7 @@ JJ = \relative{
     a a a a
     fis8 gis a fis e4 cis
     e8 fis e d cis4 cis8 d
-    e cis b4 a a'~
+    e cis b4 a e'
   }
   
 }
