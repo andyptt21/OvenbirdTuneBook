@@ -16,6 +16,12 @@
   \BC
   "The Blackest Crow"
   ""
+
+  \makeScore
+  \BCSChords
+  \BCS
+  "The Blackest Crow (Simplified)"
+  ""
 }
 
 \bookpart{
@@ -94,8 +100,8 @@
   \makeScore
   \FWRChords
   \FWR
-  "Farewell to Walley Range"
-  ""
+  "Farewell to Whalley Range"
+  "Michael McGoldrick"
   \makeScore
   \FITSChords
   \FITS
@@ -129,6 +135,22 @@
 \bookpart{
   \header { manual-page-number = "8" }
   \makeScore
+  \LBChords
+  \LB
+  "Lonesome Banjo"
+  "Arnold Watson"
+  
+  \makeScore
+  \NBChords
+  \NB
+  "Nashville Blues"
+  "Earl Scruggs"
+
+}
+
+\bookpart{
+  \header { manual-page-number = "9" }
+  \makeScore
   \SGChords
   \SG
   "Sally Goodin"
@@ -142,7 +164,7 @@
 }
 
 \bookpart{
-  \header { manual-page-number = "9" }
+  \header { manual-page-number = "10" }
   \makeScore
   \SHChords
   \SH
@@ -156,7 +178,7 @@
 }
 
 \bookpart{
-  \header { manual-page-number = "10" }
+  \header { manual-page-number = "11" }
   \makeScore
   \RRTDChords
   \RRTD

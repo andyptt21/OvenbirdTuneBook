@@ -41,6 +41,6 @@ FWR = \relative{
   \new ChordNames \FWRChords 
   \new Staff { \clef treble \FWR }
   >>
-  \header { piece = \markup {\fontsize #4.0 "Farewell to Walley Range"}}
+  \header { piece = \markup {\fontsize #4.0 "Farewell to Whalley Range"}}
   }
 %}

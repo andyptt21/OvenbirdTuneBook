@@ -112,6 +112,7 @@ makeScore =
 % Including the files here makes these variables accessible for output below.
 
 \include "Tunes/BlackestCrow.ly"
+\include "Tunes/BlackestCrowSimple.ly"
 \include "Tunes/BigRockCandyMountain.ly"
 \include "Tunes/BlackMountainRag.ly"
 \include "Tunes/CattleInTheCane.ly"
@@ -127,6 +128,8 @@ makeScore =
 \include "Tunes/JackARoe.ly"
 \include "Tunes/JimmyJohnson.ly"
 \include "Tunes/LittlePineSiskin.ly"
+\include "Tunes/LonesomeBanjo.ly"
+\include "Tunes/NashvilleBlues.ly"
 \include "Tunes/SallyGoodin.ly"
 \include "Tunes/SallyInTheGarden.ly"
 \include "Tunes/SquirrelHunters.ly"
