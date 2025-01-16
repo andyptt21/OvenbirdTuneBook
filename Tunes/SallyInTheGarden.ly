@@ -4,8 +4,8 @@ SITGChords = \chordmode{
   c1:m s2 g:m
   c2.:m f4 bes1
   c:m s4 bes c2:m s1 s2 g:m c1:m c:m
-  c:m s s s
-  s s s1 s2 g c1:m c:m
+  c:m s s g:m
+  c:m s s1 s2 g:m c1:m c:m
 }
 
 SITG = \relative{

@@ -2,10 +2,10 @@
 
 NBChords = \chordmode{
   d1:m s s s
-  s s a a
+  s s a s
   d:m s s s
   s s s d
-  d:m s s s 
+  d:m a d:m s 
 }
 
 NB = \relative{

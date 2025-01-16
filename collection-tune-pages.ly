@@ -62,7 +62,7 @@
   \CPChords
   \CP
   "The Corner Post"
-  ""
+  "Cajun Traditional"
 
   \makeScore
   \CCChords
@@ -73,12 +73,24 @@
 }
 
 \bookpart{
-  \header { manual-page-number = "5" } 
+  \header { manual-page-number = "5" }
+
+  \makeScore
+  \CGChords
+  \CG
+  "Cumberland Gap"
+  ""
+  
   \makeScore
   \DOTMPChords
   \DOTMP
   "Ducks on the Mill Pond"
   ""
+
+}
+
+\bookpart{
+  \header { manual-page-number = "6" }
   
   \makeScore
   \DCChords
@@ -90,12 +102,12 @@
   \ECChords
   \EC
   "The Erie Canal"
-  ""
+  "Thomas S. Allen"
   
-}
+  }
 
 \bookpart{
-  \header { manual-page-number = "6" }
+  \header { manual-page-number = "7" }
 
   \makeScore
   \FWRChords
@@ -116,7 +128,7 @@
 }
 
 \bookpart{
-  \header { manual-page-number = "7" }
+  \header { manual-page-number = "8" }
   
   \makeScore
   \JJChords
@@ -128,12 +140,12 @@
   \LPSChords
   \LPS
   "Little Pine Siskin"
-  ""
+  "John Reischmann"
 
 }
 
 \bookpart{
-  \header { manual-page-number = "8" }
+  \header { manual-page-number = "9" }
   \makeScore
   \LBChords
   \LB
@@ -146,10 +158,15 @@
   "Nashville Blues"
   "Earl Scruggs"
 
+  \makeScore
+  \PGHChords
+  \PGH
+  "President Garfield's Hornpipe"
+  ""
 }
 
 \bookpart{
-  \header { manual-page-number = "9" }
+  \header { manual-page-number = "10" }
   \makeScore
   \SGChords
   \SG
@@ -164,7 +181,7 @@
 }
 
 \bookpart{
-  \header { manual-page-number = "10" }
+  \header { manual-page-number = "11" }
   \makeScore
   \SHChords
   \SH
@@ -178,7 +195,7 @@
 }
 
 \bookpart{
-  \header { manual-page-number = "11" }
+  \header { manual-page-number = "12" }
   \makeScore
   \RRTDChords
   \RRTD
